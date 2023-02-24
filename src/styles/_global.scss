@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8f8f8 !important;
+}
+
+.container-app {
+  margin-top: 48px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: var(--gray) !important;
+  font-weight: 800 !important;
+  border: none !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: transparent !important;
+  color: var(--green) !important;
+  border-bottom: 2px solid var(--green) !important;
+}
+
+@media (min-width: 992px) {
+  .container-app {
+    margin-top: 120px;
+  }
+}

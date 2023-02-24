@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--green-dark);
+  box-shadow: var(--box-shadow-md);
+  padding: 16px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+}

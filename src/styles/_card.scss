@@ -1,0 +1,69 @@
+.right-card {
+  padding: 30px 20px;
+  border-radius: var(--border-lg);
+  box-shadow: var(--box-shadow-md);
+
+  &__title {
+    font-weight: 800;
+    font-size: 1.4rem;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size: .9rem;
+    color: var(--green);
+    cursor: pointer;
+  }
+}
+
+.left-card {
+  padding: 30px 20px;
+  border-radius: var(--border-lg);
+  box-shadow: var(--box-shadow-md);
+
+  &__title {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-size: .9rem;
+    color: var(--green);
+    cursor: pointer;
+  }
+}
+
+.card-product {
+  padding: 20px 16px;
+  border-radius: var(--border-md);
+  box-shadow: var(--box-shadow-sm);
+  margin-bottom: 14px;
+}
+
+.card-price {
+  padding: 20px 16px;
+  border-radius: var(--border-md);
+  box-shadow: var(--box-shadow-sm);
+  margin-bottom: 14px;
+
+  &__price {
+    font-weight: 600;
+
+    span {
+      font-weight: 500;
+      font-size: .8rem;
+    }
+  }
+}
+
+.card-register {
+  padding: 20px 16px;
+  border-radius: var(--border-md);
+  box-shadow: var(--box-shadow-sm);
+  margin-bottom: 14px;
+}
